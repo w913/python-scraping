@@ -11,7 +11,7 @@ for i in range(len(data)-1):
     data2.append(tuple(data[i].split(" ")))
 print(data2)
 button = driver.find_element_by_id("next_pager")
-button.click()
+button[0].click()
 
 text = driver.find_element_by_id("list5")
 data = text.text.split("\n")
