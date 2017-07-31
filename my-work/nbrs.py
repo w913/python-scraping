@@ -1,3 +1,5 @@
+# NicoVideoRankingSearcher(nbrs.py)
+
 from selenium import webdriver
 
 driver = webdriver.PhantomJS()
